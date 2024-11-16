@@ -1,0 +1,38 @@
+.photo {
+    border-radius: 20px;
+    justify-content: space-around;
+    gap: 400px;
+}
+.hour{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hour #days,
+.hour #hours{
+    
+    flex-basis: 50%;
+   
+    
+}
+.hour #hours{
+    color: rgb(179, 176, 176);
+   text-align: center;
+   display: flex-inline;
+   justify-content: center;
+   
+
+}
+.hour #hours p{
+    position: relative;
+    top: 40%;
+    color: rgba(17, 225, 17, 0.933);
+    font-weight: bold;
+}
+.hour #days p:hover {
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+  }

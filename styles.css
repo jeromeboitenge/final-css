@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgba(26, 24, 28, 0.955);
+    font-size: 25px;
+    color: white;
+    
+
+}
+main{
+    margin:5% 10%;
+    margin-bottom: 10%;
+}
+.header-links ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0;
+    gap: 40px;
+    list-style: none;
+    
+    /* justify-content: center; */
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.header-links ul a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 35px;
+    position: relative;
+   
+}
+.header-links ul a::before{
+    /* background-color:  rgba(17, 225, 17, 0.933); */
+    /* text-shadow:  rgba(17, 225, 17, 0.933);
+    box-shadow: inset; */
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgba(17, 225, 17, 0.933);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.header-links ul a::after{
+    
+    content: '';
+    width: 0;
+    height: 3px;
+    background:rgba(17, 225, 17, 0.933);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.header-links ul a:hover:after{
+    width: 100%;
+}
+
+.header-shop-food {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    justify-content: space-between;
+    
+    
+}
+.photo{
+    display: block;
+    flex-basis: 45%;
+    width: 100%;
+    min-width: 300px;
+    border: 3px solid ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fb0334;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+}
+.simple-text{
+    display: block;
+    flex-basis: 45%;
+    width: 100%;
+    min-width: 350px;
+}
+.photo img{
+    width: 100%;
+    border-radius: 5px;
+}
+.simple-text .header-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(17, 225, 17, 0.933);
+    margin-bottom: 30px;
+    
+}
+.answer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.262);
+
+}
+.answer a:hover{
+    color: rgba(17, 225, 17, 0.933);
+}
+
+/* .header-shop-food img{
+   
+    width: 100%;
+    border-radius: 4px;
+
+} */
+#about{
+    display: flex;
+    flex-basis: auto;
+    width: 100%;
+}
+.about-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-description-content{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+.about-description h2{
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+    
+    
+}
+.time-of-origin .question{
+    font-size: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.overview{
+    display: none;
+}
+table{
+    border: 5px solid rgba(17, 225, 17, 0.933);
+   padding: 12px;
+   text-align: center;
+   width: 100%;
+   
+}
+th,td{
+    padding: 10px;
+    border: 1px solid #ddd; /* Border for each cell */
+    text-align: left;
+    /* background-color: rgb(39, 35, 35); */
+    border-radius: 6px;
+
+}
+ .menu-header h2{
+    margin: 20px 0;
+ }
+ .contacts-information{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    width: 100%;
+    justify-content: space-between;
+    
+
+ }
+ .contact-calls{
+    display: block;
+    flex-basis: 60%;
+    font-size: 35px;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    
+
+    
+ }
+ .contact-calls nav{
+   margin-bottom: 30px;
+ }
+ .social-media{
+    display: inline-flex;
+    margin: 30px 0;
+    gap: 10px;
+    
+
+ }
+ .message{
+    margin: 40px 0;
+    justify-content: space-between;
+    flex-basis: 40%;
+ }
+ .message input,.message textarea{
+    width: 70%;
+    border: 1px solid whitesmoke;
+    margin-bottom:40px ;
+    border-radius:8px ;
+    text-align: center;
+    background-color:rgba(26, 24, 28, 0.226) ;
+    min-width: max(80%,200px);
+    
+ }
+ 
+ .message input{
+    height: 40px;
+ }
+ .contacts-information img{
+    width: 30px;
+    border-radius: 50%;
+
+ }
+ #contact h2{
+    margin: 40px 0;
+    font-weight: bold;
+    font-size: 35px;
+ }
+ .message .btn{
+    background-color: rgba(17, 225, 17, 0.933);
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    border-radius: 1px solid whitesmoke;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+  
+ }
