@@ -26,7 +26,7 @@ main{
     
     /* justify-content: center; */
     margin-bottom: 100px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     
 }
@@ -34,7 +34,7 @@ main{
 .header-links ul a{
     text-decoration: none;
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
    
 }
@@ -104,7 +104,7 @@ main{
     border-radius: 5px;
 }
 .simple-text .header-title{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: rgba(17, 225, 17, 0.933);
     margin-bottom: 30px;
@@ -131,7 +131,7 @@ main{
     width: 100%;
 }
 .about-title{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -143,13 +143,13 @@ main{
 }
 .about-description h2{
     width: 100%;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     
     
 }
 .time-of-origin .question{
-    font-size: 30px;
+    font-size: 25px;
     color: whitesmoke;
     cursor: pointer;
 
@@ -188,15 +188,19 @@ th,td{
  .contact-calls{
     display: block;
     flex-basis: 60%;
-    font-size: 35px;
+    font-size: 30px;
     justify-content: space-evenly;
     margin: 40px 0;
+    
     
 
     
  }
  .contact-calls nav{
+   display: flex !important;
+
    margin-bottom: 30px;
+   flex-wrap: wrap;
  }
  .social-media{
     display: inline-flex;
@@ -232,7 +236,7 @@ th,td{
  #contact h2{
     margin: 40px 0;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
  }
  .message .btn{
     background-color: rgba(17, 225, 17, 0.933);
@@ -245,3 +249,8 @@ th,td{
     font-weight: bold;
   
  }
+ /* ----media------ */
+ @media screen and (max-width:600px){
+    .contact-calls nav{
+        font-size: 25px;
+ }}
